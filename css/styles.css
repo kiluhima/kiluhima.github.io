@@ -3,5 +3,9 @@
 
 /* OVERRIDES */
 
+#indexbanner {
+    position: static;
+    top: 0px;
+}
 
 /* CUSTOM STYLES */
