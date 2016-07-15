@@ -11,9 +11,7 @@
 }
 .nav-wrapper {
     width: 100%;
-}
-.nav-wrapper {
-    width: 100% !important;
+    top: 90%;
 }
 
 /* =====CUSTOM STYLES===== */
@@ -28,6 +26,10 @@ nav ul li {
 nav ul li a {
     width: 100%;
     font-size: 1em;
-    font-weight: 200;
+    font-weight: 400;
     color: white;
+}
+#intro-banner {
+    position: relative;
+    height: 100vh;
 }
