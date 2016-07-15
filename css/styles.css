@@ -12,9 +12,6 @@
 .nav-wrapper {
     width: 100%;
 }
-nav ul a {
-    color: white;
-}
 #logo-container {
     font-size: 10px;
 }
@@ -27,15 +24,13 @@ nav ul a {
 nav {
     /*    position: fixed;*/
 }
-.nav-element {
+nav ul li {
     width: 20%;
     text-align: center;
 }
-.nav-element a {
+nav ul li a {
     width: 100%;
     font-size: 1.5em;
-    font-family: roboto-light;
-}
-nav ul a {
-    color: #FFF;
+    font-weight: 200;
+    color: white;
 }
