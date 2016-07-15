@@ -15,3 +15,6 @@ nav {
 .navbar-fixed {
     height: 0px;
 }
+#logo-container {
+    font-size: 10px;
+}
