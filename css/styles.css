@@ -1,13 +1,10 @@
 /* For custom styles and overrides of Materializes' */
 
 
-/* OVERRIDES */
+/* =====OVERRIDES===== */
 
-
-/* CUSTOM STYLES */
-
-nav {
-    /*    position: fixed;*/
+.footer-copyright {
+    font-size: 1.5em;
 }
 .navbar-fixed {
     height: 0px;
@@ -20,4 +17,25 @@ nav ul a {
 }
 #logo-container {
     font-size: 10px;
+}
+.nav-wrapper {
+    width: 90%;
+}
+
+/* =====CUSTOM STYLES===== */
+
+nav {
+    /*    position: fixed;*/
+}
+.nav-element {
+    width: 20%;
+    text-align: center;
+}
+.nav-element a {
+    width: 100%;
+    font-size: 1.5em;
+    font-family: roboto-light;
+}
+nav ul a {
+    color: #FFF;
 }
