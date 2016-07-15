@@ -12,9 +12,6 @@
 .nav-wrapper {
     width: 100%;
 }
-.nav-wrapper {
-    width: 100% !important;
-}
 
 /* =====CUSTOM STYLES===== */
 
@@ -24,7 +21,6 @@ nav {
 nav ul li {
     width: 20%;
     text-align: center;
-    font-family: roboto-light;
 }
 nav ul li a {
     width: 100%;
