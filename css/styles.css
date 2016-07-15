@@ -12,6 +12,12 @@ nav {
 .navbar-fixed {
     height: 0px;
 }
+.nav-wrapper {
+    width: 100%;
+}
+nav ul a {
+    color: white;
+}
 #logo-container {
     font-size: 10px;
 }
