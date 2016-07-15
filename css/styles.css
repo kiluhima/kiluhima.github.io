@@ -1,4 +1,4 @@
-/* For custom styles and overrides of Materializes' */
+/* For custom styles and overrides of Materialize's */
 
 
 /* =====OVERRIDES===== */
@@ -15,9 +15,6 @@
 nav ul a {
     color: white;
 }
-#logo-container {
-    font-size: 10px;
-}
 .nav-wrapper {
     width: 100% !important;
 }
@@ -30,6 +27,7 @@ nav {
 .nav-element {
     width: 20%;
     text-align: center;
+    font-family: roboto-light;
 }
 .nav-element a {
     width: 100%;
