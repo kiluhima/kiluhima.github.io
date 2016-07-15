@@ -11,7 +11,10 @@
 }
 .nav-wrapper {
     width: 100%;
-    top: 90%;
+    padding-top: 3vh;
+}
+.nav-wrapper li>a>img {
+    margin-top: -1vh;
 }
 
 /* =====CUSTOM STYLES===== */
@@ -20,13 +23,13 @@ nav {
     /*    position: fixed;*/
 }
 nav ul li {
-    width: 20%;
+    width: 19%;
     text-align: center;
 }
 nav ul li a {
     width: 100%;
     font-size: 1em;
-    font-weight: 400;
+    font-weight: 300;
     color: white;
 }
 #intro-banner {
