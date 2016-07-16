@@ -13,18 +13,24 @@
     width: 100%;
     padding-top: 3vh;
 }
-.nav-wrapper li>a>img {
+
+/* .nav-wrapper li>a>img {
     margin-top: -1vh;
-}
+} */
+
 
 /* =====CUSTOM STYLES===== */
 
 nav {
     /*    position: fixed;*/
 }
+nav ul {
+    vertical-align: center;
+}
 nav ul li {
     width: 19%;
     text-align: center;
+    display: block;
 }
 nav ul li a {
     width: 100%;
