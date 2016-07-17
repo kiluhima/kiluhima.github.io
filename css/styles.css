@@ -13,6 +13,12 @@
     width: 100%;
     padding-top: 3vh;
 }
+.button-collapse {
+    font-size: 1.25em;
+    color: white;
+    padding-left: 1em;
+    font-weight: 200;
+}
 
 /* .nav-wrapper li>a>img {
     margin-top: -1vh;
