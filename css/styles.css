@@ -20,29 +20,28 @@
     font-weight: 200;
 }
 
-/* .nav-wrapper li>a>img {
-    margin-top: -1vh;
-} */
-
-
 /* =====CUSTOM STYLES===== */
 
 nav {
     /*    position: fixed;*/
 }
-nav ul {
-    vertical-align: center;
-}
-nav ul li {
-    width: 19%;
+nav ul#desktop li:not(#logo-li) {
     text-align: center;
-    display: block;
+    padding-top: 1.5em;
 }
-nav ul li a {
+nav ul#desktop li a {
     width: 100%;
-    font-size: 1em;
+    font-size: 1.25em;
     font-weight: 300;
     color: white;
+}
+nav ul#desktop img {
+    width: 100%;
+}
+#logo-li,
+#logo-li a {
+    transition: none;
+    background-color: inherit;
 }
 #intro-banner {
     position: relative;
