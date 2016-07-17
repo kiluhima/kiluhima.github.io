@@ -7,11 +7,11 @@ $(".button-collapse").sideNav();
 $(window).scroll(function () {
     if (window.pageYOffset > 50) {
         //small scroll bar
-        $("#desktop").top = window.pageYOffset + "px";
+        document.getElementById("nav-background").style.backgroundColor = "rgba(100,100,100,.5)";
 
     } else if (window.pageYOffset == 0) {
         //big scroll bar
-
+        document.getElementById("nav-background").style.backgroundColor = "rgba(100,100,100,0)";
 
     }
 });
