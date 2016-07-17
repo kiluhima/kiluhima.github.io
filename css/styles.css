@@ -9,9 +9,12 @@
 .navbar-fixed {
     height: 0px;
 }
-.nav-wrapper {
+#desktop {
     width: 100%;
     padding-top: 3vh;
+}
+.nav-wrapper {
+    width: 100%;
 }
 .button-collapse {
     font-size: 1.25em;
