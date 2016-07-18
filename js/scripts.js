@@ -17,13 +17,16 @@ function sizing() {
     } else if (window.pageYOffset > 50) {
         //small scroll bar
         document.getElementById("nav-background").style.backgroundColor = "rgba(50,50,50,.5)";
+        document.getElementById("nav-background").style.height = "7.5em";
+        document.getElementById("desktop").style.paddingTop = "1em";
         document.getElementsByClassName("nav-wrapper")[0].style.backgroundColor = "rgba(50,50,50,0)";
 
     } else if (window.pageYOffset === 0) {
         //big scroll bar
         document.getElementById("nav-background").style.backgroundColor = "rgba(100,100,100,0)";
         document.getElementsByClassName("nav-wrapper")[0].style.backgroundColor = "rgba(50,50,50,0)";
-
+        document.getElementById("nav-background").style.height = "8.5em";
+        document.getElementById("desktop").style.paddingTop = "2em";
     }
 }
 $(window).scroll(sizing);
