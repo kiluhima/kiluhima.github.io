@@ -18,6 +18,10 @@
     padding-left: 1em;
     font-weight: 200;
 }
+.mobile-demo {
+    /*    fix later to make color see through*/
+    background-color: rgba(50, 50, 50, .75);
+}
 
 /* =====CUSTOM STYLES===== */
 
