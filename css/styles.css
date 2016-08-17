@@ -59,6 +59,7 @@ nav ul img {
 nav ul {
     width: 100%;
     transition: height, 1s;
+    height: 100%;
 }
 #logo-li {
     text-align: center;
