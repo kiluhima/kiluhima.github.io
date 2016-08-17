@@ -17,10 +17,6 @@
     color: white;
     font-weight: 200;
 }
-.mobile-demo {
-    /*    fix later to make color see through*/
-    background-color: rgba(50, 50, 50, .75);
-}
 .container {
     max-width: none;
 }
@@ -28,7 +24,7 @@
     margin-left: 0px;
     margin-right: 0px;
 }
-nav .button-collapse{
+nav .button-collapse {
     height: 64px;
     line-height: 64px;
 }
@@ -47,19 +43,28 @@ nav .button-collapse{
 
 /*===== CUSTOM STYLES =====*/
 
+@media only screen and (min-width: 993px) nav {
+    height: 10em;
+    line-height: 8em;
+}
 nav {
-    height: 8em;
-    transition: background-color 1s;
+    height: 4em;
+    transition: background-color .5s;
+    transition: 1s;
     background-color: rgba(100, 100, 100, 0);
     box-sizing: content-box;
 }
 nav ul#big-nav-ul {
     display: flex;
     justify-content: center;
+    padding-top: 2em;
+    transition: padding-top 1s;
+    height: 8em;
 }
 nav ul#mobile-nav-ul li a {
     font-weight: 300;
     font-size: 1.1em;
+    text-align: left;
 }
 nav ul li {
     text-align: center;
@@ -74,8 +79,8 @@ nav ul li a {
 nav ul img {
     transition: height 1s;
     padding: .5em 0em;
+    height: 7em;
 }
-
 #logo-li a {
     background-color: transparent;
 }
