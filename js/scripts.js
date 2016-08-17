@@ -18,8 +18,8 @@ function sizing() {
     } else if (window.pageYOffset > 50) {
         //small scroll bar
         document.getElementById("nav-background").style.backgroundColor = "rgba(50,50,50,.5)";
-        document.getElementById("nav-background").style.height = "6em";
-        document.getElementById("desktop").style.paddingTop = "1em";
+        document.getElementById("nav-background").style.height = "4em";
+        //document.getElementById("desktop").style.paddingTop = "1em";
         document.getElementById("logo").src = "images/Website_Logo_Small.svg";
         document.getElementsByClassName("nav-wrapper")[0].style.backgroundColor = "rgba(50,50,50,0)";
 
@@ -27,8 +27,8 @@ function sizing() {
         //big scroll bar
         document.getElementById("nav-background").style.backgroundColor = "rgba(100,100,100,0)";
         document.getElementsByClassName("nav-wrapper")[0].style.backgroundColor = "rgba(50,50,50,0)";
-        document.getElementById("nav-background").style.height = "8.5em";
-        document.getElementById("desktop").style.paddingTop = "2em";
+        document.getElementById("nav-background").style.height = "8em";
+        //document.getElementById("desktop").style.paddingTop = "2em";
         document.getElementById("logo").src = "images/Website_Logo.svg";
     }
 }
