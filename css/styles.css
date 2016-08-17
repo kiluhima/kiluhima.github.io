@@ -22,6 +22,9 @@
     /*    fix later to make color see through*/
     background-color: rgba(50, 50, 50, .75);
 }
+.container{
+    max-width: none;
+}
 
 /* =====CUSTOM STYLES===== */
 
