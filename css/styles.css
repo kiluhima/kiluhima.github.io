@@ -25,7 +25,10 @@
 .container{
     max-width: none;
 }
-
+.container .row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
 /* =====CUSTOM STYLES===== */
 
 nav {
