@@ -1,7 +1,7 @@
 /* For custom styles and overrides of Materialize's */
 
 
-/* =====OVERRIDES===== */
+/*===== OVERRIDES =====*/
 
 .footer-copyright {
     font-size: 1.5em;
@@ -15,49 +15,68 @@
 .button-collapse {
     font-size: 1.25em;
     color: white;
-    /*padding-left: 1em;*/
     font-weight: 200;
 }
 .mobile-demo {
     /*    fix later to make color see through*/
     background-color: rgba(50, 50, 50, .75);
 }
-.container{
+.container {
     max-width: none;
 }
-.container .row{
+.container .row {
     margin-left: 0px;
     margin-right: 0px;
 }
-/* =====CUSTOM STYLES===== */
+nav .button-collapse{
+    height: 64px;
+    line-height: 64px;
+}
+
+/*===== SUPPORT BIGGER SCREEN SIZES =====*/
+
+@media only screen and (min-width: 2000px) html {
+    font-size: 18px;
+}
+@media only screen and (min-width: 1900px) html {
+    font-size: 17px;
+}
+@media only screen and (min-width: 1700px) html {
+    font-size: 16px;
+}
+
+/*===== CUSTOM STYLES =====*/
 
 nav {
     height: 8em;
-    transition: background-color, 1s;
+    transition: background-color 1s;
     background-color: rgba(100, 100, 100, 0);
+    box-sizing: content-box;
 }
-nav ul {
-    width: 100%;
-    transition: height, 1s;
-    height: 100%;
+nav ul#big-nav-ul {
+    display: flex;
+    justify-content: center;
 }
-nav ul li{
+nav ul#mobile-nav-ul li a {
+    font-weight: 300;
+    font-size: 1.1em;
+}
+nav ul li {
     text-align: center;
-    margin-top: 10%;
-    height: 80%;
-
 }
 nav ul li a {
-    width: 100%;
     font-size: 1em;
+    line-height: 4em;
     font-weight: 300;
     color: white;
+    padding: 0 1.5em;
 }
 nav ul img {
-    width: 100%;
+    transition: height 1s;
+    padding: .5em 0em;
 }
+
 #logo-li a {
-    transition: none;
     background-color: transparent;
 }
 #intro-banner {
