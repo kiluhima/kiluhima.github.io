@@ -1,7 +1,7 @@
 //hello
 
 //mobile nav button
-$(".button-collapse").sideNav();
+$('.button-collapse').sideNav(closeOnClick: true);
 
 //fancy changing scroll navbar
 "use strict";
