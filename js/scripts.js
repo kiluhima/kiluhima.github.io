@@ -1,7 +1,10 @@
 //hello
 
 //mobile nav button
-$('.button-collapse').sideNav({closeOnClick: true});
+$('.button-collapse').sideNav({
+    closeOnClick: true;
+    document.getElementsByTagName("nav")[0].style.backgroundColor = "rgba(50,50,50,.5)";
+});
 
 //fancy changing scroll navbar
 "use strict";
@@ -11,7 +14,6 @@ function sizing() {
         //if mobile, don't change anything
         document.getElementsByTagName("nav")[0].style.height = "4em";
         document.getElementsByTagName("nav")[0].style.lineHeight = "4em";
-        document.getElementsByTagName("nav")[0].style.backgroundColor = "rgba(50,50,50,.5)";
     } else if (window.pageYOffset > 50) {
         //small scroll bar
         document.getElementsByTagName("nav")[0].style.backgroundColor = "rgba(50,50,50,.5)";
