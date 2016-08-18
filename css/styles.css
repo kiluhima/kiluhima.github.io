@@ -105,6 +105,10 @@ footer.page-footer {
     background-color: #8d8d8d;
     color: white;
     padding: 1em;
-    font-size: 1em;
+    font-size: 1.1em;
     font-weight: 300;
+}
+footer img {
+    width: 1.75em;
+    margin: 0em .2em;
 }
