@@ -1,13 +1,7 @@
 //hello
 
 //mobile nav button
-<<<<<<< HEAD
 $('.button-collapse').sideNav({closeOnClick: true});
-=======
-$('.button-collapse').sideNav({
-    closeOnClick: true
-});
->>>>>>> origin/master
 
 //fancy changing scroll navbar
 "use strict";
