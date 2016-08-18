@@ -12,11 +12,11 @@ function sizing() {
     if (window.innerWidth < 992) {
         //if mobile, don't change anything
         document.getElementsByTagName("nav")[0].style.height = "4em";
-        document.getElementsByTagName("nav")[0].style.backgroundColor = "rgba(50,50,50,.5)";
+        document.getElementsByTagName("nav")[0].style.backgroundColor = "rgba(50,50,50,.8)";
         document.getElementsByTagName("nav")[0].style.lineHeight = "4em";
     } else if (window.pageYOffset > 50) {
         //small scroll bar
-        document.getElementsByTagName("nav")[0].style.backgroundColor = "rgba(50,50,50,.5)";
+        document.getElementsByTagName("nav")[0].style.backgroundColor = "rgba(50,50,50,.8)";
         document.getElementsByTagName("nav")[0].style.height = "4em";
         document.getElementsByTagName("nav")[0].style.lineHeight = "4em";
         document.getElementById("logo").style.height = "3em";

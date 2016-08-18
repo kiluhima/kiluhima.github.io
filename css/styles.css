@@ -97,3 +97,10 @@ nav ul img {
     position: relative;
     height: 100vh;
 }
+footer.page-footer {
+    background-color: #8d8d8d;
+    color: white;
+    padding: 1em;
+    font-size: 1em;
+    font-weight: 300
+}
