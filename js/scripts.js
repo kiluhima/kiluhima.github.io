@@ -25,8 +25,8 @@ function sizing() {
         document.getElementsByTagName("nav")[0].style.backgroundColor = "rgba(100,100,100,0)";
         document.getElementsByTagName("nav")[0].style.height = "10em";
         document.getElementsByTagName("nav")[0].style.lineHeight = "8em";
-        document.getElementById("logo").style.height = "7em";
         document.getElementById("big-nav-ul").style.paddingTop = "2em";
+        document.getElementById("logo").style.height = "7em";
         document.getElementById("logo").src = "images/Website_Logo.svg";
     }
 }

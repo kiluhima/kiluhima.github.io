@@ -49,6 +49,7 @@ nav .button-collapse {
 }
 nav {
     height: 4em;
+    line-height: 4em;
     transition: background-color .5s;
     transition: 1s;
     background-color: rgba(100, 100, 100, 0);
