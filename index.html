@@ -19,11 +19,10 @@
 </head>
 
 <body onload="sizing">
-
     <div class="navbar-fixed">
         <nav class=" z-depth-0" role="navigation" style="line-height: 8em; background-color: rgba(100, 100, 100, 0);">
             <div class="nav-wrapper container">
-                <ul class="hide-on-med-and-down row" id="big-nav-ul" style="padding-top: 2em;">
+                <ul class="hide-on-med-and-down" id="big-nav-ul" style="padding-top: 2em;">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="the_team.html">The Team</a></li>
                     <li id="logo-li">
@@ -31,15 +30,20 @@
                     </li>
                     <li><a href="FAQ.html">FAQ</a></li>
                     <li><a href="contact_us.html">Contact Us</a></li>
+                    <li style="position:absolute; right:1em;"><a href="#preorder-modal" class="btn-flat grey darken-2 modal-trigger" style="color:white;">Pre-order<i style="line-height:inherit;" class="material-icons right">shopping_cart</i></a></li>
                 </ul>
 
-                <a href="#" data-activates="mobile-nav-ul" class="button-collapse" style="width:6em; padding:0em .5em; height:100%; line-height:4em; margin-top:-.5em;"><img src="images/Flux_logo.svg" alt="FLUX" style="height: 2em; vertical-align: middle;">&nbsp;Menu</a>
+                <a href="#" data-activates="mobile-nav-ul" class="button-collapse left" style="width:6em; padding:0em 1em; height:100%; line-height:4em; margin-top:-.5em;"><img src="images/Flux_logo.svg" alt="FLUX" style="height: 2em; vertical-align: middle;">&nbsp;Menu</a>
 
                 <ul class="side-nav" id="mobile-nav-ul">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="the_team.html">The&nbsp;Team</a></li>
                     <li><a href="FAQ.html">FAQ</a></li>
                     <li><a href="contact_us.html">Contact&nbsp;Us</a></li>
+                </ul>
+
+                <ul class="right hide-on-large-only">
+                    <li><a href="#preorder-modal" class="btn-flat grey darken-2 modal-trigger" style="color:white;">Pre-order<i style="line-height:inherit;" class="material-icons right">shopping_cart</i></a></li>
                 </ul>
             </div>
         </nav>
@@ -162,6 +166,16 @@
         </div>
     </footer>
 
+    <!-- Modal -->
+    <div id="preorder-modal" class="modal">
+        <div class="modal-content">
+            <h4>Modal Header</h4>
+            <p>A bunch of text</p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+        </div>
+    </div>
 
     <!-- Scripts-->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
