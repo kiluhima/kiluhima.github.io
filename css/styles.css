@@ -84,6 +84,7 @@ nav ul li a {
     font-weight: 300;
     color: white;
     padding: 0 1.5em;
+    height: 100%:
 }
 nav ul img {
     transition: height 1s;

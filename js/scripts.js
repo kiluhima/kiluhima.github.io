@@ -1,9 +1,11 @@
-//hello
-
-//mobile nav button
+// Mobile nav button
 $('.button-collapse').sideNav({
     closeOnClick: true
 });
+
+// For modal
+$('.modal-trigger').leanModal();
+
 
 //fancy changing scroll navbar
 "use strict";
