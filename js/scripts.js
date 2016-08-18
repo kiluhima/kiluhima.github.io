@@ -3,10 +3,6 @@ $('.button-collapse').sideNav({
     closeOnClick: true
 });
 
-// For modal
-$('.modal-trigger').leanModal();
-
-
 //fancy changing scroll navbar
 "use strict";
 
@@ -21,7 +17,7 @@ function sizing() {
         document.getElementsByTagName("nav")[0].style.backgroundColor = "rgba(50,50,50,.8)";
         document.getElementsByTagName("nav")[0].style.height = "4em";
         document.getElementsByTagName("nav")[0].style.lineHeight = "4em";
-        document.getElementById("logo").style.height = "3em";
+        document.getElementById("logo").style.height = "3.5em";
         document.getElementById("big-nav-ul").style.paddingTop = "0em";
         document.getElementById("logo").src = "images/Website_Logo_Small.svg";
     } else if (window.pageYOffset === 0) {
@@ -30,7 +26,7 @@ function sizing() {
         document.getElementsByTagName("nav")[0].style.height = "10em";
         document.getElementsByTagName("nav")[0].style.lineHeight = "8em";
         document.getElementById("big-nav-ul").style.paddingTop = "2em";
-        document.getElementById("logo").style.height = "7em";
+        document.getElementById("logo").style.height = "7.5em";
         document.getElementById("logo").src = "images/Website_Logo.svg";
     }
 }
