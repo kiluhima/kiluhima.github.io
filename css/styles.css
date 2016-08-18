@@ -28,6 +28,9 @@ nav .button-collapse {
     height: 64px;
     line-height: 64px;
 }
+nav ul a:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
 
 /*===== SUPPORT BIGGER SCREEN SIZES =====*/
 
@@ -78,7 +81,7 @@ nav ul#mobile-nav-ul li a {
 nav ul li {
     text-align: center;
 }
-nav ul li a {
+nav ul a {
     font-size: 1em;
     line-height: 4em;
     font-weight: 300;
@@ -88,8 +91,8 @@ nav ul li a {
 }
 nav ul img {
     transition: height 1s;
-    padding: .5em 0em;
-    height: 7em;
+    padding: .25em 0em;
+    height: 7.5em;
 }
 #logo-li a {
     background-color: transparent;
