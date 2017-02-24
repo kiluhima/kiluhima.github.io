@@ -6,7 +6,7 @@ $('.button-collapse').sideNav({
 //fancy changing scroll navbar
 "use strict";
 
-const navColor = "rgba(31, 31, 31, 0.75)"
+const navColor = "rgba(30,30,30, 0.75)"
 
 function sizing() {
     if (window.innerWidth < 992) {
