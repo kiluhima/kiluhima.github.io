@@ -18,21 +18,22 @@
     font-weight: 200;
 }
 .container {
-    max-width: none;
+    /*    max-width: none;*/
 }
+
+/*
 .container .row {
     margin-left: 0px;
     margin-right: 0px;
 }
+*/
+
 nav .button-collapse {
     height: 64px;
     line-height: 64px;
 }
 nav ul a:hover {
     background-color: rgba(0, 0, 0, 0.2);
-}
-.materialbox-overlay {
-    background-color: #
 }
 
 /*===== SUPPORT BIGGER SCREEN SIZES =====*/
