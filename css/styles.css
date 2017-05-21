@@ -1,40 +1,4 @@
-/* For custom styles and overrides of Materialize's */
-
-
-/*===== OVERRIDES =====*/
-
-.footer-copyright {
-    font-size: 1.5em;
-}
-.navbar-fixed {
-    height: 0px;
-}
-.nav-wrapper {
-    width: 100%;
-}
-.button-collapse {
-    font-size: 1.25em;
-    color: white;
-    font-weight: 200;
-}
-.container {
-    /*    max-width: none;*/
-}
-
-/*
-.container .row {
-    margin-left: 0px;
-    margin-right: 0px;
-}
-*/
-
-nav .button-collapse {
-    height: 64px;
-    line-height: 64px;
-}
-nav ul a:hover {
-    background-color: rgba(0, 0, 0, 0.2);
-}
+/* For custom styles */
 
 /*===== SUPPORT BIGGER SCREEN SIZES =====*/
 
